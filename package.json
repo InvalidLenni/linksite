@@ -1,0 +1,20 @@
+{
+    "name": "linksite",
+    "displayName": "LinkSite-Template",
+    "version": "1.0.0",
+    "description": "My personal linksite.",
+    "main": "./src/index.html",
+    "scripts": {
+        "website": "./src/index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/InvalidLenni/linksite-template/linksite-template.git"
+    },
+    "bugs": {
+        "url": "https://github.com/InvalidLenni/linksite-template/issues/"
+    },
+    "homepage": "https://github.com/InvalidLenni/linksite-template#readme",
+    "author": "InvalidLenni",
+    "license": "MIT"
+}
