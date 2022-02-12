@@ -1,0 +1,82 @@
+<!--  Replace YourName to your Username or Name. -->
+<!--  Replace YourID to your ID. -->
+<!--  Replace YourDomain to your Domain.de -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="../manifest.json">
+  <link rel="icon" href="./assets/favicon.png">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@YourName" />
+  <meta name="twitter:title" content="YourWebname" />
+  <meta name="twitter:description" content="YourName's personal linktree website." />
+  <meta name="twitter:image" content="./assets/favicon.png" />
+  <meta content="YourDomain.com" property="og:title" />
+  <meta content="YourName's personal linktree website." property="og:description" />
+  <meta content="https://YourWebname.com/" property="og:url" />
+  <meta content="assets/favicon.png" property="og:image" />
+  <meta content="#43B581" data-react-helmet="true" name="theme-color" />  
+  <title>YourDomain.com - Connections</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="./css/links.css">
+</head>
+  <body class="w3-white">
+    <div class="container">
+    <div class="image-container">
+    <img src="./assets/avatar.png" class="w3-margin" alt="Created with Picrew" max-width="100%" height="150px" style="border-radius: 50%; alt="">
+     <div class="w3-text-white">
+  
+     <p class="w3-text-white w3-large">Welcome to <span class="w3-tag w3-large w3-round w3-text-white"><strong>YourName's</strong></span> link site!</p>
+     <p class="w3-large"><strong>See what are my profiles on social medias / platforms.</strong></p>
+      </div>
+
+    <div class="links-container">
+      <a href="https://twitter.com/YourName" class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fab fa-twitter"> </i>Twitter</a>
+      <br>
+      <a href="https://instagram.com/YourName" class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fab fa-instagram"> </i>Instagram</a>
+      <br>
+      <a href="https://twitch.tv/YourName" class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fab fa-twitch"> </i>Twitch</a>
+      <br>
+      <a href="https://www.reddit.com/u/YourName" class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fab fa-reddit"> </i>Reddit</a>
+      <br>
+      <a href="https://discord.com/users/YourID" class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fab fa-discord"> </i>Discord</a>
+      <br>
+      <a href="https://open.spotify.com/user/YourID" class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fab fa-spotify"> </i>Spotify</a>
+      <br>
+      <a href="https://stackoverflow.com/users/YourID/YourName" class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fab fa-stackoverflow"> </i>Stackoverflow</a>
+      <br>
+      <a href="https://github.com/YourName" class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fab fa-github"> </i>Github</a>
+      <br>
+      <a href="https://dev.to/YourName" class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fa fa-devto"> </i>Dev.to</a>
+      <br>
+      <a href="https://medium.com/YourName" class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fa fa-blog"> </i>Blog</a>
+    </div>
+  </div>
+</div>
+
+  </body>  
+</html>
+</script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./scripts/sw.js"></script>
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+</script>
+<!-- Add sw / serviceWorker -->
+<script> 
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./scripts/sw.js')
+        })
+      }
+      window.addEventListener('beforeinstallprompt', (e) => {
+              e.preventDefault()
+      })
+</script>
