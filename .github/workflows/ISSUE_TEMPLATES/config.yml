@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Production
+    url: https://linksite-jbpl5zjkt-invalidlenni.vercel.app/src/index.html
+    about: The preview site.
