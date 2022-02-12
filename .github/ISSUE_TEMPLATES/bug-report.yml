@@ -2,8 +2,6 @@ name: 🐞 Bug
 description: File a bug report
 title: "[BUG]: "
 labels: ["bug"]
-assignees:
-  - octocat
 body:
   - type: markdown
     attributes:
